@@ -20,7 +20,7 @@ public interface ProductService {
 
 	public List<ProductBean> getAllProducts();
 
-	public List<ProductBean> getAllProductsByType(String type);
+	public List<ProductBean> getAllProductsByType(String type, int page, int pageSize);
 
 	public List<ProductBean> searchAllProducts(String search);
 
